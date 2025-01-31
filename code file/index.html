@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="assets/logo-header.png" type="image/x-icon">
+    <!-- tailwind css -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- daisy UL  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- title -->
+    <title>nature's platter</title>
+</head>
+<body class="bg-white">
+  <nav>
+    <div class="navbar bg-white space-x-30">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost sm-hidden">
+              <!-- <svg -->
+                <!-- xmlns="http://www.w3.org/2000/svg" -->
+                <!-- class="h-5 w-5" -->
+                <!-- fill="none" -->
+                <!-- viewBox="0 0 24 24" -->
+                <!-- stroke="white"> -->
+                <!-- <path -->
+                  <!-- stroke-linecap="round" -->
+                  <!-- stroke-linejoin="round" -->
+                  <!-- stroke-width="2" -->
+                  <!-- d="M4 6h16M4 12h8m-8 6h16" /> -->
+              <!-- </svg> -->
+            </div>
+            </ul>
+          </div>
+          <!-- <a class="btn btn-ghost text-xl">daisyUI</a> -->
+           <div>
+            <img src="assets/logo-header.png" alt="">
+           </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Product</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a> Contact us</a></li>
+          </ul>
+        </div>
+        <div class="flex-row gap-2 px-5">
+          <div><img src="assets/icons8-search-50.png" alt=""></div>
+          <div><img src="assets/icons8-shopping-cart-50.png" alt=""></div>
+        </div>
+        <div class="navbar-end gap-2">
+          <button class="btn btn-outline btn-success">Login</button>
+          <button class="btn btn-success">Register</button>
+        </div>
+      </div>
+  </nav>
+  <!-- hero -->
+  <section class="bg-white text-center mt-20 ">
+    <h1 class="text-5xl font-black font-bold text-black ">Freshness <span class="text-green-600">You Can<br>Count</span>
+      on, Prices You’ll Love!</h1>
+      <p class="text-black mt-5 mb-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+      <div class="flex justify-center">
+        <img src="assets/hero-vegetables.png" alt="">
+      </div>
+  </section> 
+  <!-- card -->
+  <section class="bg-white text-center mt-10">
+    <h1 class="text-green-600 font-bold font-black text-5xl">Services</h1>
+    <div class="auto-rows-auto gap-2 card-title text-center ml-45">
+    <div>
+      <div class="card bg-teal-50 w-70 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="assets/service.png" alt="">
+        </figure>
+        <div class="card-body items-center text-center text-black">
+          <h2 class="card-title font-bold">24/7 Services</h2>
+          <p>Always available, day or night, for uninterrupted support, convenience, and emergency assistance worldwide.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card bg-teal-50 w-70 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="assets/delivery.png" alt="">
+        </figure>
+        <div class="card-body items-center text-center text-black">
+          <h2 class="card-title font-bold">Fast Delivery</h2>
+          <p>Get your orders quickly, reliably, and efficiently, straight to your doorstep without delay.</p>
+        </div>
+      </div>
+    </div>
+      <div class="card bg-teal-50 w-70 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="assets/healthy.png" alt="">
+        </figure>
+        <div class="card-body items-center text-center text-black">
+          <h2 class="card-title font-bold">Healthy Products </h2>
+          <p>Nutritious, natural, and wholesome choices to support your wellness, energy, and overall well-being daily.</p>
+        </div>
+      </div>
+  </div>
+  </section>  
+  <!-- Popular Products -->
+   <section class="bg-yellow mt-20 ">
+     <h1 class="text-4xl text-green-600 text-center mt-50">Popular Products</h1>
+     <div class="card-title">
+      <div class="card bg-sky-300 text-primary-content w-80">
+        <div class="card-body">
+          <h2 class="card-title">30% off</h2>
+          <p>Discover a world of treats, toys, and  essentials handpicked for</p>
+          <div class="card-action">
+            <button class="btn text-white">Buy Now</button>
+          </div>
+          <div class="card-action text-4xl justify-end">
+            <img src="assets/vegetable-offer.png" alt="">
+          </div>
+        </div>
+      </div>
+     </div>
+   </section>
+   <!-- Arrival & Offers -->
+    <section>
+      <div>
+      <div class="carousel rounded-box ">
+        <div><img src="assets/dawat-logo.png" alt=""></div>
+        <button class="btn btn-wide">Wide</button>
+        <h1>up to 20% off</h1>
+      </div>
+    </div>
+    </section>
+</body>
+</html>
